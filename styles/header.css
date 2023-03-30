@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    padding-left: 10%;
+}
+
+nav {
+    font-size: large;
+}
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+#feature2 {
+    margin-left: 10px;
+}
+
+.feature:hover {
+    color: blue;
+}
