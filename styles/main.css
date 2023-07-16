@@ -1,89 +1,83 @@
-body {
-    background: #fafafa;
-    color: #333333;
-    margin-top: 5rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #444444;
-}
-
-ul {
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
-.bg-steel {
-    background-color: #5f788a;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.site-header .navbar-nav .nav-link {
-    color: #cbd5db;
+.header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
 }
 
-.site-header .navbar-nav .nav-link:hover {
-    color: #ffffff;
+.header h1 {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
 }
 
-.site-header .navbar-nav .nav-link.active {
-    font-weight: 500;
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+    color: white;
 }
 
-.content-section {
-    background: #ffffff;
-    padding: 10px 20px;
-    border: 1px solid #dddddd;
-    border-radius: 3px;
-    margin-bottom: 20px;
-}
-
-.article-title {
-    color: #444444;
-}
-
-a.article-title:hover {
-    color: #428bca;
+.nav a {
     text-decoration: none;
+    color: white;
+    padding: 10px;
 }
 
-.article-content {
-    white-space: pre-line;
+.nav a:hover {
+    background-color: #555555;
 }
 
-.article-img {
-    height: 65px;
-    width: 65px;
-    margin-right: 16px;
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
-.article-metadata {
-    padding-bottom: 1px;
-    margin-bottom: 4px;
-    border-bottom: 1px solid #e3e3e3
+.main .left {
+    flex-basis: 30%;
+    padding: 10px;
 }
 
-.article-metadata a:hover {
-    color: #333;
-    text-decoration: none;
+.main .left img {
+    width: 100%;
+    height: auto;
 }
 
-.article-svg {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
+.main .right {
+    flex-basis: 70%;
+    padding: 10px;
 }
 
-.account-img {
-    height: 125px;
-    width: 125px;
-    margin-right: 20px;
-    margin-bottom: 16px;
+.main .right h2 {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
 }
 
-.account-heading {
-    font-size: 2.5rem;
+.main .right p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
 }
