@@ -1,2 +1,3 @@
 # blightg.github.io
-a landing page
+
+A Personal Website to display the life professional life cycle of The account Holder
